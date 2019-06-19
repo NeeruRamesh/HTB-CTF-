@@ -1,0 +1,66 @@
+Remember, it is always good to solve on your own. Well if you are new to the playground and you have no idea of how to get around, then ya, I guess you must try first and then read this.
+
+Name: Bank Heist
+
+HINT: Its in the description itself! Not the flag, obviously... but what decrypter to use. 
+
+Description: You get to the scene of a bank heist and find that you have caught one person. Under further analysis of the persons flip phone you see a message that seems suspicious. Can you figure out what the message to put this guy in jail? 
+
+Author: RedTeamIntern
+
+FirstBlood: jkr
+
+*****SPOILER WARNING*****
+
+First download the text file. [zip->unzip->textfile->password: hackthebox]
+
+Now, you see a lot of numbers. This is a MULTI-TAP MOBILE PHONE CIPHERTEXT. How did I know? I didn't. The clue was in the description. It took me a while to figure it out. What was the clue? It said message on "FLIP-PHONE". So back old days, the way we text. umm, I Know.
+
+So anyways, MULTI-TAP MOBILE PHONE CIPHERTEXT. 
+
+link to decryptor: https://www.dcode.fr/multitap-abc-cipher
+
+{copy paste the whole data inside the bank_heist.txt}
+
+Now, once you have decrypted, you get the following: 
+
+*/
+
+IIGF YOU ARE READING THE CIPHER YOU ARE OKAY YOUR SHARE OF/ODE/OED THE HEIST GHS/IRP/IS IN/IMM YOUR HOUSE THE KEY TO THE LOCK GHS/IRP/IS BELOW GO TO PARIS GSV XLWV GL GSV HZU OLXP TLIVGRIVNVMGUFMW
+
+/*
+
+Now, if you observe the above text, clearly you can read some parts of the text and the last part doesn't make sense. Well, the last part is again encrypted. Now there was some problem with the decrypter so it gave texts like "IIGF" insted of "IF" and "OF/ODE/OED" instead of simply giving "OF".
+But that requires some basic English correction. Now, after correcting the sentence and inserting all the punctuation marks(refer the ciphertext) we get this: 
+
+*/
+
+IF YOU ARE READING THE CIPHER YOU ARE OKAY. YOUR SHARE OF THE HEIST IS IN YOUR HOUSE. THE KEY TO THE LOCK IS BELOW. GO TO PARIS.
+GSV XLWV GL GSV HZU OLXP: TLIVGRIVNVMGUFMW!!
+
+*/
+
+
+Now, we can try to figure out what the encryption could be for the cipher in the last line. I just googled the cipher itself. And boom, I found out it was Atbash Mirror Cipher.
+
+link for decoder: https://www.dcode.fr/atbash-mirror-cipher
+
+Copy paste the cipher in the decoder and then you get:
+
+*/
+
+THE CODE TO THE SAF LOCK GORETIREMENTFUND
+
+*/
+
+Now, inserting all the required punctuation marks, we get:
+
+*/
+
+THE CODE TO THE SAF LOCK: GORETIREMENTFUND!!
+
+/* 
+
+There there, you have the FLAG :)
+
+HTB{GORETIREMENTFUND!!}
