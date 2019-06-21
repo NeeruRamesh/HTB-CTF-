@@ -1,10 +1,12 @@
-# HINT 
-1) Hint is in the description of the challenge.
-2) Decrypt and then decrypt.
+Name: Bank Heist 
+Description: You get to the scene of a bank heist and find that you have caught one person. Under further analysis of the persons flip phone you see a message that seems suspicious. Can you figure out what the message to put this guy in jail?  
+ 
+Author: RedTeamIntern 
+First Blood: jkr 
 
 Bank_Heist.zip is the challenge here. It's password is "hackthebox". [without double quotes].
 
-Walkthrough.zip is the walkthrough. As of now, the challenge is still active. Its a good old tradition of not sharing the walkthroughs when the challenge is still active. Hence this is password protected. If you have already solved the challenge and want to view the walkthrough, then the password is the flag itself.
+Walkthrough.pdf is the walkthrough. As of now, the challenge is still active. Its a good old tradition of not sharing the walkthroughs when the challenge is still active. Hence this is password protected. If you have already solved the challenge and want to view the walkthrough, then the password is the flag itself.
 
 It is forbidden to remove the password and distribute the files of active challenges. If someone does so, I take no responsibility. 
 Happy Hacking :) 
