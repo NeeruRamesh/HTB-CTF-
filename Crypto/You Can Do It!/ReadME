@@ -1,9 +1,11 @@
-Even if the challenge is retired, I encourage you to work on it before viewing the walkthrough.zip
-Password for the Walkthrough zip is the flag itself.
+Description:	The flag is in the format HTB{plaintext} 
+Author:		Stylish
+First Blood: 	alamot
+
+Even if the challenge is retired, I encourage you to work on it before viewing the walkthrough.pdf
+Password for the Walkthrough.pdf is the flag itself. {If in case the challenge is still active}
 So, find the flag.
 
-You_Can_Do_It Zip Password: hackthebox
-#Hint:
-Transposition Cipher.
+You_Can_Do_It.Zip Password: hackthebox
 
 Happy Hacking :)
