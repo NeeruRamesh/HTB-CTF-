@@ -1,3 +1,5 @@
+Disclaimer: Don't open solve.py if you haven't figured out what you are dealing with. Just to keep the challenge real.
+
 Description: Brainy likes playing around with esoteric programming. He also likes math and has therefore encrypted his very secure password with a popular encryption algorithm. Claiming that his password cannot be retrieved now, he has sent the ciphertext to some of his friends. Can you prove to Brainy that his password can actually be recovered? 
 
 Author: k4m4 
